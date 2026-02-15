@@ -1,0 +1,37 @@
+theia@theia-laxmansharma:/home/project/IBM_Developer_Skills_Ne
+twork$ git status
+On branch bug-fix-repo
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+theia@theia-laxmansharma:/home/project/IBM_Developer_Skills_Ne
+twork$ git push
+fatal: The current branch bug-fix-repo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bug-fix-repo
+
+theia@theia-laxmansharma:/home/project/IBM_Developer_Skills_Ne
+twork$ git push origin bug-fix-repo
+Username for 'https://github.com': Laxman-2004
+Password for 'https://Laxman-2004@github.com': 
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'bug-fix-repo' on GitHub by visiting:
+remote:      https://github.com/Laxman-2004/IBM_Developer_Skills_Network/pull/new/bug-fix-repo
+remote: 
+To https://github.com/Laxman-2004/IBM_Developer_Skills_Network.git
+ * [new branch]      bug-fix-repo -> bug-fix-repo
+theia@theia-laxmansharma:/home/project/IBM_Developer_Skills_Ne
+twork$ git checkout main
+M       README.md
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+theia@theia-laxmansharma:/home/project/IBM_Developer_Skills_Ne
+twork$ git merge bug-fix-repo
+Already up to date.
+theia@theia-laxmansharma:/home/project/IBM_Developer_Skills_Ne
+twork$ 
